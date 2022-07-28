@@ -1,15 +1,69 @@
+.bg-primary {
+  background-color: #1f0052 !important;
+}
+
+.btn-primary {
+  background-color: #1f0052 !important;
+  border-color: #1f0052 !important;
+}
+
+.text-info {
+  color: #1f0052 !important;
+  font-weight: bold !important;
+}
+.btn-outline-info {
+  border-color: #1f0052 !important;
+  color: #1f0052 !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #1f0052 !important;
+  color: #fff !important;
+}
+
+i.sicon {
+  background-color: #242424;
+  border-radius: 50%;
+  border: 1px solid #242424;
+  padding: 10px;
+}
+
+.fa-star {
+  color: #fbbf24;
+}
+
+.inactivestar {
+  color: #fcecaf;
+}
+
 .overlaydark {
   background: black;
   opacity: 0.5;
 }
 
 .carousel-caption {
-  bottom: 13rem;
+  bottom: 32%;
 }
 
-i {
-  background-color: #242424;
-  border-radius: 50%;
-  border: 1px solid #242424;
-  padding: 10px;
+@media only screen and (max-width: 768px) {
+  .carousel-caption {
+    bottom: 2%;
+    right: 5%;
+    left: 5%;
+    padding-bottom: 0.1rem;
+  }
+
+  .display-4 {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-caption {
+    bottom: 2%;
+    padding-bottom: 0.1rem;
+  }
+  .display-4 {
+    font-size: 1.8rem !important;
+  }
 }
