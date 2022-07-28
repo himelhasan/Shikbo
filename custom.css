@@ -1,0 +1,8 @@
+.overlaydark {
+  background: black;
+  opacity: 0.5;
+}
+
+.carousel-caption {
+  bottom: 13rem;
+}
