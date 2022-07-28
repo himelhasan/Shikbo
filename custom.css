@@ -6,3 +6,10 @@
 .carousel-caption {
   bottom: 13rem;
 }
+
+i {
+  background-color: #242424;
+  border-radius: 50%;
+  border: 1px solid #242424;
+  padding: 10px;
+}
